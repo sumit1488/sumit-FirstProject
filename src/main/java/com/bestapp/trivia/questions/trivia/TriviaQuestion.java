@@ -13,7 +13,7 @@ final public class TriviaQuestion {
 	final private String correctAnswer;
 	final private String hint;
 	final private Date lastUpdated;
-
+	private String mocking;
 	public TriviaQuestion(long id, String question, String answerA, String answerB, String answerC, String answerD,
 			String correctAnswer, String hint, Date lastUpdated) {
 		super();
